@@ -1,0 +1,25 @@
+Host complex
+HostName 163.118.78.202
+Port 222
+User dsilva
+IdentityFile ~/.ssh/id_rsa
+
+Host swarm
+HostName 163.118.78.203
+Port 222
+User dsilva
+IdentityFile ~/.ssh/id_rsa
+
+Host blueshark
+HostName blueshark.fit.edu
+Port 22
+User dsilva2014
+IdentityFile ~/.ssh/id_rsa
+
+
+Host mynode
+HostName node18
+Port 22
+User dsilva2014
+ProxyCommand ssh blueshark -W %h:%p
+LocalForward 8277 node18:8277
