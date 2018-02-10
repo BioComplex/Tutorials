@@ -1,0 +1,30 @@
+#!/bin/bash
+#SBATCH --job-name 'ANYNAME'
+#SBATCH --nodes=1 
+#SBATCH --ntasks 8
+#SBATCH --mem=20GB
+#SBATCH --partition=long
+#SBATCH --error='ANYNAME'%J.err
+#SBATCH --output='ANYNAME'%J.out
+#SBATCH --workdir='ANY-EMPTY-FOLDER'
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user='YOUR EMAIL'
+echo "Starting at"; date
+echo "Hostname: `hostname`"
+echo "Running on hosts: $SLURM_NODELIST"
+echo "Running on $SLURM_NNODES nodes."
+echo "Running on $SLURM_NPROCS processors."
+echo "Current working directory is `ANY-EMPTY-FOLDER`"
+
+exec bash /udrive/student/YOUR_ACCOUNT/bash_1.sh &
+exec bash /udrive/student/YOUR_ACCOUNT/bash_2.sh &
+exec bash /udrive/student/YOUR_ACCOUNT/bash_3.sh &
+
+python /udrive/student/YOUR_ACCOUNT/python_1.py &
+python /udrive/student/YOUR_ACCOUNT/python_2.py &
+python /udrive/student/YOUR_ACCOUNT/python_3.py &
+
+wait
+date
+
+
