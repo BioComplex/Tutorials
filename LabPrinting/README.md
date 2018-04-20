@@ -29,3 +29,6 @@
 Click on Add, and wait for the process to finish.
 
 10) When you first try to print, you are going to be asked for authentication details. Remeber to enter your tracks account followed by the Domain, something like <tracks_username>@fltech and then your password. You can add the password to your keychain, so you don't have to type it every time you need to print!
+
+## Enjoy
+
