@@ -3,8 +3,8 @@
 1) Open the terminal and download the  [PPD (PostScript Printer Description)](https://en.wikipedia.org/wiki/PostScript_Printer_Description) file from the BioComplex repository by typing: 
 `curl https://github.com/BioComplex/Tutorials/raw/master/LabPrinting/HP%20LaserJet%20400%20M401.gz --output  HPLaserJet400M401.gz`
 
-2) Move the PPD file to the directory where OSX stores PPDs `sudo mv HPLaserJet400M401.gz /Library/Printers/PPDs/Contents/Resources/`
-
+2) Move the PPD file to the directory where OSX stores PPDs. You can do `sudo mv HPLaserJet400M401.gz /Library/Printers/PPDs/Contents/Resources/` (Tested on Mac OS Sierra)
+ 
 3) Go to Systems Preference > Printers & Scanners and click on the + sign to add a new printer
 
 <a href="https://ibb.co/nL0747"><img src="https://preview.ibb.co/jzO5rn/mac_printer2.jpg" alt="mac_printer2" border="0"></a>
