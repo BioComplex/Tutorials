@@ -28,4 +28,4 @@
 <a href="https://imgbb.com/"><img src="https://image.ibb.co/hpRN47/Screen_Shot_2018_04_20_at_6_39_56_PM.png" alt="Screen_Shot_2018_04_20_at_6_39_56_PM" border="0"></a><br>
 Click on Add, and wait for the process to finish.
 
-10) When you first try to print, you are going to be asked for authentication details.
+10) When you first try to print, you are going to be asked for authentication details. Remeber to enter your tracks account followed by the Domain, something like <tracks_username>@fltech and then your password. You can add the password to your keychain, so you don't have to type it every time you need to print!
