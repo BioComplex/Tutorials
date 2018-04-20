@@ -9,7 +9,7 @@
 
 <a href="https://ibb.co/nL0747"><img src="https://preview.ibb.co/jzO5rn/mac_printer2.jpg" alt="mac_printer2" border="0"></a>
 
-4) If you have the icon "Advanced" skip to next step. Otherwise, right click under the search bar, click on "Advanced" and drag it to the correct Place
+4) If you have the icon "Advanced" skip to next step. Otherwise, right click under the search bar, click on "Customize Toolbar", select "Advanced" and drag it to the correct Place
 
 <a href="https://ibb.co/b81dcS"><img src="https://preview.ibb.co/nKJPHS/mac_printer1.png" alt="mac_printer1" border="0"></a>
 
